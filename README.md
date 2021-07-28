@@ -8,7 +8,7 @@ Traditional methods explore potential Protein-Protein Inteaction and Protein-Lig
 
 Here, we provide a scirpt (Domain_Parser-BioStructures.jl) to extract ordered structures from the structure of alphafold DB for molecular docking.
 
-![image](https://user-images.githubusercontent.com/58931275/127297567-36ab0c1e-f97b-44fa-a0a3-ee2f9c715699.png)
+<img src=https://user-images.githubusercontent.com/58931275/127297567-36ab0c1e-f97b-44fa-a0a3-ee2f9c715699.png width=60% />
 
 Many disordered regions play critical roles in protein-protein interactions, and we also provide an additional script (Disorder_Reader.jl) to extract the sequences of disordered regions from alphafold DB for motif searching.
 

@@ -4,7 +4,9 @@ This script can clean up the disordered region in the AlphaFold DB structures to
 Introduction
 ===
 
-Traditional methods explore potential Protein-Protein Inteaction and Protein-Ligand Interaction by molecular docking. The molecular docking is highly dependent on the protein structure, the [Alphafold DB](https://alphafold.ebi.ac.uk/) gives us a large amount of high quality structures. Howerver, many low confidence structures of disordered regions make it difficult for these structures to be used for molecular docking. Here, we provide a scirpt (Domain_Parser-BioStructures.jl) to extract ordered structures from the structure of alphafold DB for molecular docking.
+Traditional methods explore potential Protein-Protein Inteaction and Protein-Ligand Interaction by molecular docking. The molecular docking is highly dependent on the protein structure, the [Alphafold DB](https://alphafold.ebi.ac.uk/) gives us a large amount of high quality structures. Howerver, many low confidence structures of disordered regions make it difficult for these structures to be used for molecular docking. 
+
+Here, we provide a scirpt (Domain_Parser-BioStructures.jl) to extract ordered structures from the structure of alphafold DB for molecular docking.
 
 ![image](https://user-images.githubusercontent.com/58931275/127297567-36ab0c1e-f97b-44fa-a0a3-ee2f9c715699.png)
 

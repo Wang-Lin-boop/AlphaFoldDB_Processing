@@ -50,5 +50,8 @@ To extract the ordered regions from AF2 structures.
 Windows:
 ---
 
-Drag scripts to your working directory containing your AF2 DB file folder， then clicking scripts and select julia.exe to run:
+Drag scripts to your working directory containing your AF2 DB folder， then clicking scripts and select julia.exe to run:
 
+![image](https://user-images.githubusercontent.com/58931275/127741637-b34e6686-ea58-44c8-bfb0-99d0091f8ac7.png)
+
+Typing your AF2_DB foldername in the cmd and running it. 

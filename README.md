@@ -9,7 +9,7 @@ Traditional methods explore potential Protein-Protein Inteaction and Protein-Lig
 Here, we provide a scirpt (Domain_Parser-BioStructures.jl) to extract ordered structures from the structure of alphafold DB for molecular docking.
 
 <div align="center" style="border-top:1px solid black;border-botton:1px">
-<img src=https://user-images.githubusercontent.com/58931275/127742170-cea54f74-d6f5-4956-a62b-bba9b9910527.png width=60% />
+<img src=https://user-images.githubusercontent.com/58931275/127742323-e3959e4a-6de6-467c-86d7-0b8aad36bcda.png width=60% />
 <p> </p>
 </div>
 

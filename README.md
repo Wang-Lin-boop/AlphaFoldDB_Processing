@@ -22,8 +22,17 @@ Dependencies
 1. [Julia](https://julialang.org/downloads/)
 2. [BioStructures](https://github.com/BioJulia/BioStructures.jl) library in julia. 
 
+Installtion
+====
+1. Install [Julia](https://julialang.org/downloads/) on your computer, Linux, macOS or Windows.
+2. run Julia, click julia.exe on windows, run ```julia``` on Linux or macOS.
+3. typing ```]add BioStructures``` in RPEL and pressing enter to add [BioStructures](https://github.com/BioJulia/BioStructures.jl) library in julia. 
+
 Usage
 ===
+
+Linux:
+---
 
 To read the disorder region from AF2 structures.
 
@@ -38,5 +47,8 @@ To extract the ordered regions from AF2 structures.
 
 ![image](https://user-images.githubusercontent.com/58931275/127270091-068d684e-620b-4b60-bcd5-4ed11247faae.png)
 
+Windows:
+---
 
+Drag scripts to your working directory containing your AF2 DB file folder， then clicking scripts and select julia.exe to run:
 

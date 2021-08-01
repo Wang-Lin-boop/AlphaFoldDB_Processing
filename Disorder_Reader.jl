@@ -1,6 +1,5 @@
 using Base: Float64, Float32
 #!/mnt/e/Julia-1.6.2
-using PDBTools
 using BioStructures
 
 function get_next_line_frag(chain, frag_num, frag_start::Int64, chain_res_end, frag_matrix, pdb_name, model_num, chain_id)

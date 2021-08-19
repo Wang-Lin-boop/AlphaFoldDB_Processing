@@ -54,3 +54,18 @@ Drag scripts to your working directory containing your AF2 DB folder， then cli
 ![image](https://user-images.githubusercontent.com/58931275/127741637-b34e6686-ea58-44c8-bfb0-99d0091f8ac7.png)
 
 Typing your AF2_DB foldername in the cmd and running it. 
+
+Try to modify the scripts
+===
+There are a series of global variables that can be modified in the script.
+
+```
+global b_factor_max = 100 # max b_factor(pLDDT) to keep a residue.
+global b_factor_min = 50 # min b_factor(pLDDT) to keep a residue.
+global disorder_len_max = 5 # the max disorder tail in a ordered domain.
+global domain_min_len = 10   # this option is means of the min length of fargs. The domain is consist of frags incessant in sequence.
+global min_dist_interdomain = 3.50  # 3.00 is a very strict cutoff.
+global min_Adjacent_residues = 5 # How many residues are close together between frags will be identified as a domain.
+```
+
+后排插播一条广告，欢迎加入Schrödinger中文社区，请致信wanglin3@shanghaitech.edu.cn获取加群二维码。

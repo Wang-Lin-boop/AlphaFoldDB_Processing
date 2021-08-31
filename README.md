@@ -6,14 +6,14 @@ Introduction
 
 Traditional methods explore potential Protein-Protein Inteaction and Protein-Ligand Interaction by molecular docking. The molecular docking is highly dependent on the protein structure, the [Alphafold DB](https://alphafold.ebi.ac.uk/) gives us a large amount of high quality structures. Howerver, many low confidence structures of disordered regions let it difficult for these structures to be used for molecular docking. 
 
-Here, we provide a scirpt (Domain_Parser-BioStructures.jl) to extract ordered structures from the structure of alphafold DB for molecular docking.
+Here, we provide a scirpt (`Domain_Parser-BioStructures.jl`) to extract ordered structures from the structure of alphafold DB for molecular docking.
 
 <div align="center" style="border-top:1px solid black;border-botton:1px">
 <img src=https://user-images.githubusercontent.com/58931275/127742323-e3959e4a-6de6-467c-86d7-0b8aad36bcda.png width=60% />
 <p> </p>
 </div>
 
-Many disordered regions play critical roles in protein-protein interactions, and we also provide an additional script (Disorder_Reader.jl) to extract the sequences of disordered regions from alphafold DB for motif searching.
+Many disordered regions play critical roles in protein-protein interactions, and we also provide an additional script (`Disorder_Reader.jl`) to extract the sequences of disordered regions from alphafold DB for motif searching.
 
 Dependencies
 ===
@@ -68,4 +68,3 @@ global min_dist_interdomain = 3.50  # 3.00 is a very strict cutoff.
 global min_Adjacent_residues = 5 # How many residues are close together between frags will be identified as a domain.
 ```
 
-后排插播一条广告，欢迎加入Schrödinger中文社区，请致信wanglin3@shanghaitech.edu.cn获取加群二维码。

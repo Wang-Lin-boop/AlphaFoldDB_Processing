@@ -42,7 +42,7 @@ To read the disorder region from AF2 structures.
 
 To extract the ordered regions from AF2 structures.
 
-    julia -p 8 Domain_Parser-BioStructures.jl
+    julia -p 8 Domain_Parser.jl
 
 ![image](https://user-images.githubusercontent.com/58931275/127270091-068d684e-620b-4b60-bcd5-4ed11247faae.png)
 

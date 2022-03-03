@@ -68,3 +68,6 @@ global min_dist_interdomain = 3.50  # 3.00 is a very strict cutoff.
 global min_Adjacent_residues = 5 # How many residues are close together between frags will be identified as a domain.
 ```
 
+How to cite
+----
+It is recommended that citing the script by link (such as: `Domain_Parser(https://github.com/Wang-Lin-boop/AlphaFoldDB_Processing)`) or refer to this page [Ways to cite a GitHub Repo](https://www.wikihow.com/Cite-a-GitHub-Repository) to promote reproducibility of your work.

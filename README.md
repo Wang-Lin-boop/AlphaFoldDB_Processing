@@ -70,7 +70,7 @@ global min_dist_interdomain = 3.50  # 3.00 is a very strict cutoff.
 global min_Adjacent_residues = 5 # How many residues are close together between frags will be identified as a domain.
 ```
 
-How to cite
+Citation
 ----
 ```
 @article{doi:10.1021/acs.jcim.2c01033,

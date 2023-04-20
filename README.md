@@ -72,4 +72,15 @@ global min_Adjacent_residues = 5 # How many residues are close together between 
 
 How to cite
 ----
-It is recommended that citing the script by a link (such as: `Domain_Parser(https://github.com/Wang-Lin-boop/AlphaFoldDB_Processing)`) or refer to this page [Ways to cite a GitHub Repo](https://www.wikihow.com/Cite-a-GitHub-Repository) to promote reproducibility of your work.
+```
+@article{doi:10.1021/acs.jcim.2c01033,
+author = {Wang, Lin and Li, Feng-lei and Ma, Xin-yue and Cang, Yong and Bai, Fang},
+title = {PPI-Miner: A Structure and Sequence Motif Co-Driven Protein–Protein Interaction Mining and Modeling Computational Method},
+journal = {Journal of Chemical Information and Modeling},
+volume = {62},
+number = {23},
+pages = {6160-6171},
+year = {2022}
+}
+```
+
